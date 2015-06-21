@@ -18,6 +18,89 @@ You should unzip the data in the same folder as the source file to make this pro
 Please refer to the following documents inside the zip file: ReadMe.txt and features_info.txt for an explanation of the project and the data contained within.
 
 The result is the mean of the average and standard deviation of each metric grouped by subject and activity.
+
+SubjectID - the subject ID
+ActivityDescr  - the description of the activity
+tBodyAcc-mean()-X  - average mean body accelleation in the X axis (note same for Y and Z)
+tBodyAcc-mean()-Y 
+tBodyAcc-mean()-Z 
+tBodyAcc-std()-X - average std dev body accelleation in the X axis (note same for Y and Z)
+tBodyAcc-std()-Y 
+tBodyAcc-std()-Z 
+tGravityAcc-mean()-X 
+tGravityAcc-mean()-Y 
+tGravityAcc-mean()-Z 
+tGravityAcc-std()-X
+tGravityAcc-std()-Y
+tGravityAcc-std()-Z
+tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Z
+tBodyAccJerk-std()-X
+tBodyAccJerk-std()-Y
+tBodyAccJerk-std()-Z
+tBodyGyro-mean()-X
+tBodyGyro-mean()-Y
+tBodyGyro-mean()-Z
+tBodyGyro-std()-X
+tBodyGyro-std()-Y
+tBodyGyro-std()-Z
+tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z
+tBodyGyroJerk-std()-X
+tBodyGyroJerk-std()-Y
+tBodyGyroJerk-std()-Z
+tBodyAccMag-mean()
+tBodyAccMag-std()
+tGravityAccMag-mean()
+tGravityAccMag-std()
+tBodyAccJerkMag-mean()
+tBodyAccJerkMag-std()
+tBodyGyroMag-mean()
+tBodyGyroMag-std()
+tBodyGyroJerkMag-mean()
+tBodyGyroJerkMag-std()
+fBodyAcc-mean()-X - mean fast fourier applied to body acceleartion in X Axis
+fBodyAcc-mean()-Y
+fBodyAcc-mean()-Z
+fBodyAcc-std()-X
+fBodyAcc-std()-Y
+fBodyAcc-std()-Z
+fBodyAcc-meanFreq()-X
+fBodyAcc-meanFreq()-Y
+fBodyAcc-meanFreq()-Z
+fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z
+fBodyAccJerk-std()-X
+fBodyAccJerk-std()-Y
+fBodyAccJerk-std()-Z
+fBodyAccJerk-meanFreq()-X
+fBodyAccJerk-meanFreq()-Y
+fBodyAccJerk-meanFreq()-Z
+fBodyGyro-mean()-X
+fBodyGyro-mean()-Y
+fBodyGyro-mean()-Z
+fBodyGyro-std()-X
+fBodyGyro-std()-Y
+fBodyGyro-std()-Z
+fBodyGyro-meanFreq()-X
+fBodyGyro-meanFreq()-Y
+fBodyGyro-meanFreq()-Z
+fBodyAccMag-mean()
+fBodyAccMag-std()
+fBodyAccMag-meanFreq()
+fBodyBodyAccJerkMag-mean()
+fBodyBodyAccJerkMag-std()
+fBodyBodyAccJerkMag-meanFreq()
+fBodyBodyGyroMag-mean()
+fBodyBodyGyroMag-std()
+fBodyBodyGyroMag-meanFreq()
+fBodyBodyGyroJerkMag-mean()
+fBodyBodyGyroJerkMag-std()
+fBodyBodyGyroJerkMag-meanFreq()
+ActivityID
 ---
 <h1>The Script</h1>
 Note: Not every file in the zip folder is used for the project; only the ones referenced in the cdoe below.  I load the appropriate libraries and read in the features and activity labels.  The features.txt will become my column headers later on
